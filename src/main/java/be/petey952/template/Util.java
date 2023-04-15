@@ -2,7 +2,7 @@ package be.petey952.template;
 
 import java.util.function.Predicate;
 
-public class Util {
+public final class Util {
     private Util() {
         // Util, no construction
     }
