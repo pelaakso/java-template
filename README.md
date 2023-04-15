@@ -1,3 +1,5 @@
+![Build status](https://github.com/pelaakso/java-template/actions/workflows/build-java.yml/badge.svg?branch=main)
+
 # Java template project
 
 Clone this repository for a quickstart on a new simple Java project.
