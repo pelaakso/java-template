@@ -1,0 +1,22 @@
+version: 2
+updates:
+  # Enable version updates for Java
+  - package-ecosystem: "maven"
+    # Where to look for pom.xml files
+    directory: "/"
+    # Check updates every day (weekdays)
+    schedule:
+      interval: "daily"
+      time: "02:00"
+      timezone: "Europe/Helsinki"
+    open-pull-requests-limit: 10
+
+  # Enable version updates for GHA workflows
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    # Check updates every day (weekdays)
+    schedule:
+      interval: "daily"
+      time: "02:00"
+      timezone: "Europe/Helsinki"
+    open-pull-requests-limit: 10
