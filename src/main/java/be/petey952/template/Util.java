@@ -10,7 +10,7 @@ public final class Util {
     public static Predicate<String> isPositiveInteger() {
         return s -> {
             try {
-                return Integer.parseInt(s) >=0;
+                return Integer.parseInt(s) >= 0;
             } catch (NumberFormatException e) {
                 return false;
             }
