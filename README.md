@@ -4,6 +4,11 @@
 
 Clone this repository for a quickstart on a new simple Java project.
 
+## Specs
+
+* Java 17
+* JUnit 5
+
 ## Usage
 
 ```bash
