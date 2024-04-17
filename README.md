@@ -6,7 +6,7 @@ Clone this repository for a quickstart on a new simple Java project.
 
 ## Specs
 
-* Java 17
+* Java 21
 * JUnit 5
 
 ## Usage
