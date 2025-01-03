@@ -25,7 +25,7 @@
     <maven.surefire.plugin.version>3.3.1</maven.surefire.plugin.version>
 
     <!-- Library versions -->
-    <junit.version>5.10.3</junit.version>
+    <junit.version>5.11.4</junit.version>
   </properties>
 
   <dependencyManagement>
