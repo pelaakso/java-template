@@ -3,9 +3,10 @@ name: Java - build and test
 on:
   push:
     paths:
-      - 'src/**'
-      - 'pom.xml'
-      - '.github/workflows/build-java.yml'
+      - "src/**"
+      - "pom.xml"
+      - ".github/workflows/build-java.yml"
+      - ".mvn/wrapper/maven-wrapper.properties"
 
 jobs:
   build-and-test-java:
@@ -22,8 +23,8 @@ jobs:
         uses: actions/setup-java@v5
         with:
           java-version: 21
-          distribution: 'adopt'
-          cache: 'maven'
+          distribution: "adopt"
+          cache: "maven"
 
       - name: Build and test / Maven
         run: ./mvnw -B clean package
